@@ -1,6 +1,6 @@
 # jpa03-rowantran
 
-Repo: https://ucsb-cs156-s21/jpa03-rowantran
+Repo: https://github.com/ucsb-cs156-s21/jpa03-rowantran
 
 On Heroku: https://jpa03-rtran.herokuapp.com
 
