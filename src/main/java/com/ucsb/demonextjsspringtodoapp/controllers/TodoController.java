@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,6 +24,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ucsb.demonextjsspringtodoapp.models.Todo;
 import com.ucsb.demonextjsspringtodoapp.repositories.TodoRepository;
 
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:8080", "https://jpa03-rtran.herokuapp.com"})
 @RestController
 public class TodoController {
   private final Logger logger = LoggerFactory.getLogger(TodoController.class);
